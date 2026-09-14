@@ -1,0 +1,15 @@
+# Secrets: keep API keys out of GitHub.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python-generated files.
+__pycache__/
+*.py[cod]
+
+# Local editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
